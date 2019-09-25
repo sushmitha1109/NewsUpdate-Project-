@@ -1,0 +1,32 @@
+#main_menu{
+    line-height: 3px;
+    width: 98%;
+}
+
+.blink_me
+{
+    background:red;
+    animation: blinker 2s linear infinite ;
+    font-size: 13px;
+    font-weight: 700;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  
+    #myCarousel {
+       box-shadow: 5px 5px 5px rgb(66, 64, 64);
+       padding: 5px;
+      }
+
+    .main_text{
+      text-align: left;
+     margin-top: -50px;
+     padding-left: 0px;
+     color: aliceblue;
+    }
+    
+  
