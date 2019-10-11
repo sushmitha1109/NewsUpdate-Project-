@@ -3,6 +3,9 @@
     width: 98%;
 }
 
+body{
+  background-color: rgb(241, 239, 239);
+}
 .blink_me
 {
     background:red;
@@ -16,17 +19,46 @@
     }
   }
 
-  
     #myCarousel {
        box-shadow: 5px 5px 5px rgb(66, 64, 64);
        padding: 5px;
       }
 
     .main_text{
-      text-align: left;
-     margin-top: -50px;
+      text-align: center;
+     margin-top: -60px;
      padding-left: 0px;
-     color: aliceblue;
+     color: rgb(255, 255, 255);
+
     }
     
-  
+    .media-body{
+      background-color: #fff;
+      box-shadow: 1px 1px 1px 1px rgb(231, 231, 231);
+      padding:15px;
+    }
+    .footer {
+    
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(41, 40, 40);
+      color: white;
+      text-align: center;
+   }
+   
+   .nav-item{
+     list-style: none;
+     color: #fff;
+   }
+
+   .footer2{
+     background-color: black;
+     padding:10px;
+   }
+   .navbar{
+     background-color: rgb(61, 6, 112);
+   }
+   .nav-item :hover{
+     background-color: rgb(163, 98, 224);
+   }
